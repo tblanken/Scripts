@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Adding a comment to loop.py
-=======
-# Testing cherry picking 
->>>>>>> testbranch
 
 # print ('Hello world!')
 
