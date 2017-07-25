@@ -61,7 +61,7 @@ proc existence {variable} {
     }
 }
 
- Create an array
+# Create an array
 for {set i 0} {$i < 5} {incr i} { set a($i) test }
 
 puts "\ntesting unsetting a member of an array"

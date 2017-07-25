@@ -18,5 +18,5 @@ while {$i < 10} {
 
 set i 0
 incr i
- This is equivalent to:
+# This is equivalent to:
 set i [expr {$i + 1}]

@@ -8,7 +8,7 @@ puts "$Label $NYCapital"
 puts {$Label $NYCapital}
 
 puts "\n....... examples of differences in nesting \{ and \" "
-uts "$Label {$NYCapital}"
+puts "$Label {$NYCapital}"
 puts {Who said, "What this country needs is a good $0.05 cigar!"?}
 
 puts "\n................. examples of escape strings"

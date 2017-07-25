@@ -34,7 +34,7 @@ close $outfl
 set io [open "|[info nameofexecutable] $tempFileName" r+]
 
 # send a string to the new program
-     *MUST FLUSH*
+#     *MUST FLUSH*
 puts $io "This will come back backwards."
 flush $io
 

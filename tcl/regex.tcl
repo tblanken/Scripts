@@ -2,7 +2,7 @@
 
 set sample "Where there is a will, There is a way."
 
-Match the first substring with lowercase letters only
+#Match the first substring with lowercase letters only
 set result [regexp {[a-z]+} $sample match]
 puts "Result: $result match: $match"
 
