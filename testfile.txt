@@ -1,6 +1,2 @@
-Adding a comment
-
-What's up my friend?
-
 Hello World
 How are you?
