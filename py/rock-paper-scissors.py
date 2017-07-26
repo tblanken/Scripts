@@ -10,6 +10,9 @@ scissors = 'scissors'
 lizard = 'lizard'
 spock = 'Spock'
 
+print "Welcome to the Rock, paper, Scissors, Lizard, Spock game"
+print""
+
 answer1 = input ("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock ")
 answer2 = input ("Player 2 please type 1 for rock, 2 for paper,  3 for scissors, 4 for lizard, 5 for Spock ")
 
