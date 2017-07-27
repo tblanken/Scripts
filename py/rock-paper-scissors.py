@@ -1,7 +1,13 @@
-# Rock - crushes scissors
-# Paper - covers rock
-# Scissors - cuts paper
-# Lizard poisons Spock
+#### Rock crushes scissors
+#### Rock crushes lizard
+#### Paper covers rock
+### Paper disproves Spock
+### Scissors cuts paper
+### Scisors decapitate lizard
+### Lizard poisons Spock
+### Lizard eats paper
+#### Spock vaporizes rock
+### Spock smashes scissors 
 
 
 rock = 'rock'
@@ -31,7 +37,7 @@ elif answer1 == 2 and answer2 == 3:
 elif answer1 == 2 and answer2 == 4:
    print "Player 2 wins because lizard eats paper! "
 elif answer1 == 2 and answer2 == 5:
-   print "Player 2 wins because Spock disproves paper! "
+   print "Player 1 wins because paper disproves Spock! "
 elif answer1 == 3 and answer2 == 1:
    print "Player 1 wins because rock crushes scissors! "
 elif answer1 == 3 and answer2 == 2:
@@ -51,7 +57,7 @@ elif answer1 == 4 and answer2 == 5:
 elif answer1 == 5 and answer2 == 1:
    print "Player 1 wins because Spock vaporizes rock! "
 elif answer1 == 5 and answer2 == 2:
-   print "Player 1 wins because Spock disproves paper! "
+   print "Player 2 wins because paper disproves Spock! "
 elif answer1 == 5 and answer2 == 3:
    print "Player 1 wins because Spock crushes scissors! "
 elif answer1 == 5 and answer2 == 4:
