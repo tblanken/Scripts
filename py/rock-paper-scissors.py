@@ -1,13 +1,13 @@
-#### Rock crushes scissors
-#### Rock crushes lizard
-#### Paper covers rock
-#### Paper disproves Spock
-#### Scissors cuts paper
-#### Scisors decapitate lizard
-#### Lizard poisons Spock
-#### Lizard eats paper
-#### Spock vaporizes rock
-#### Spock smashes scissors 
+# Rock crushes scissors
+# Rock crushes lizard
+# Paper covers rock
+# Paper disproves Spock
+# Scissors cuts paper
+# Scisors decapitate lizard
+# Lizard poisons Spock
+# Lizard eats paper
+# Spock vaporizes rock
+# Spock smashes scissors 
 
 
 rock = 'rock'
@@ -22,11 +22,18 @@ print""
 answer1 = None
 answer2 = None
 
-while answer1 > 5 or answer1 < 1:
-   answer1 = input ("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock ")
+# while True:
+#   try:
+#      answer1 = int(input("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock: "))
+            
+#   except ValueError:
+#      print ("Int, please")
 
+while answer1 > 5 or answer1 < 1:
+   answer1 = input("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock: ")
+   
 while answer2 > 5 or answer2 < 1:
-   answer2 = input ("Player 2 please type 1 for rock, 2 for paper,  3 for scissors, 4 for lizard, 5 for Spock ")
+   answer2 = input("Player 2 please type 1 for rock, 2 for paper,  3 for scissors, 4 for lizard, 5 for Spock: ")
    
    if answer1 == 1 and answer2 == 1:
       print "Player 1 and 2 tie! "
