@@ -18,7 +18,7 @@ lizard = 'lizard'
 spock = 'Spock'
 
 print""
-print "Welcome to the Rock, paper, Scissors, Lizard, Spock game"
+print "Welcome to the Rock, Paper, Scissors, Lizard, Spock game"
 print""
 
 answer1 = None
