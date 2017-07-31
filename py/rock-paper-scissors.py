@@ -9,7 +9,7 @@
 # Spock vaporizes rock
 # Spock smashes scissors 
 
-# Include a 'quit' function and notify the user if they type an integer outside the acceptable range
+# Include a 'quit' function
 
 rock = 'rock'
 paper = 'paper'
@@ -17,6 +17,7 @@ scissors = 'scissors'
 lizard = 'lizard'
 spock = 'Spock'
 
+print""
 print "Welcome to the Rock, paper, Scissors, Lizard, Spock game"
 print""
 
@@ -26,16 +27,20 @@ answer2 = None
 while answer1 > 5 or answer1 < 1:
    try:
       answer1 = int(raw_input("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock: "))
+      print""
             
    except ValueError:
-      print ("You must provide an integer value")
+      print ("You must provide an integer value between 1 and 5")
+      print""
 
 while answer2 > 5 or answer2 < 1:
    try:
       answer2 = int(raw_input("Player 2 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock: "))
+      print""
 
    except ValueError:
-      print ("You must provide and integer value")
+      print ("You must provide and integer value between 1 and 5")
+      print""
 
    if answer1 == 1 and answer2 == 1:
       print "Player 1 and 2 tie! "
