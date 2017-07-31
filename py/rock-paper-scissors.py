@@ -9,6 +9,7 @@
 # Spock vaporizes rock
 # Spock smashes scissors 
 
+# Include a 'quit' function and notify the user if they type an integer outside the acceptable range
 
 rock = 'rock'
 paper = 'paper'
