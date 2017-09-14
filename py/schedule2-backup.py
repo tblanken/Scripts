@@ -1,7 +1,9 @@
 import os, datetime, shutil, sys, time, urllib.request 
 
 path = "c:\\temp\\" # This code defines the path and stores it in the variable 'dirs'
+dest_path = "c:\\temp2\\" # This code defines the destination path of downloaded file
 dirs = filter(os.path.isdir, os.listdir ( path )) # Saves a list of the directories in the defined directory in a variable
+
 
 file_list = []
 for i in dirs:
@@ -10,11 +12,12 @@ for i in dirs:
 
 newpath = (os.path.join(path,i))
 
-for filename in os.listdir(newpath):
-    if filename.endswith('.txt'):
-	    dest_path = "c:\\temp2\\" # This code defines the destination path of downloaded file
-shutil.move(newpath, dest_path)
-		
+for root, dirs, files in os.walk(newpath):
+    for x in files:
+        if x.endswith('.txt'):
+#            print(os.path.join(newpath+ '\\' + x)) # For testing only
+            shutil.copy(newpath+ '\\' + x, dest_path)
+    
 # References:
 #dirs = os.listdir( path ) # Saves a list of the files and directories in the defined directory in a variable		
 #today = datetime.datetime.now().isoformat() # Grabs the current time
