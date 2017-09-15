@@ -4,19 +4,18 @@ path = "c:\\temp\\" # This code defines the path and stores it in the variable '
 dest_path = "c:\\temp2\\" # This code defines the destination path of downloaded file
 dirs = filter(os.path.isdir, os.listdir ( path )) # Saves a list of the directories in the defined directory in a variable
 
-
-file_list = []
-for i in dirs:
+file_list = [] # Creating a list to hold a list of files
+for i in dirs: # Creating a for loop to go through each file in the path
     a = os.stat(os.path.join(path,i)) #os.stat returns file attributes about an inode. os.path.join joins one or more path components
     file_list.append([time.ctime(a.st_ctime)]) #time of most recent metadata change on Unix, or the time of creation on Windows)
 
-newpath = (os.path.join(path,i))
+newpath = (os.path.join(path,i)) # Defining the new path
 
 for root, dirs, files in os.walk(newpath):
-    for x in files:
-        if x.endswith('.txt'):
+    for x in files: # Creating a for loop to go through each file in the path
+        if x.endswith('.txt'): # Checking to see if file ends with .txt
 #            print(os.path.join(newpath+ '\\' + x)) # For testing only
-            shutil.copy(newpath+ '\\' + x, dest_path)
+            shutil.copy(newpath+ '\\' + x, dest_path) # Copies the files (noted as x) in the path to the destination 
     
 # References:
 #dirs = os.listdir( path ) # Saves a list of the files and directories in the defined directory in a variable		
