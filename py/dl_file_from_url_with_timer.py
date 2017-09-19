@@ -1,5 +1,7 @@
-
 ##!/usr/bin/python
+
+# This script downloads firmware files at a specified time using a timer
+
 import os, datetime, shutil, sys, time, urllib.request 
 import profile as profile
 
