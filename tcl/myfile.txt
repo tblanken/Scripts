@@ -3,5 +3,5 @@ Line 2 working
 Line 3 working
 Line 4 failed
 Line 5 failed
-Line 6
+Line 6 failed
 Line 7 
