@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 Testing GitK on testing branch
 
 Line 1 
 Line 2
+=======
+Testing GitK on Master 
+Take 2
+Take3
+
+Line 1
+Line 2 
+>>>>>>> master
 Line 3
 Line 4
 Line 5
