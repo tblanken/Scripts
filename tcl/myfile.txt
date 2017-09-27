@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-Line 1 Testing branch change
+Testing GitK on testing branch
+
+Line 1 
 Line 2
-=======
-Line 1
-Line 2 master branch changes
->>>>>>> master
 Line 3
 Line 4
 Line 5
