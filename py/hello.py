@@ -1,6 +1,6 @@
-#  Sixth Change
+#  Seventh Change
 
-print ('Hello world!')
+prin ('Hello world!')
 
 name = 'Monty'
 print('Hello, %s' % name)
