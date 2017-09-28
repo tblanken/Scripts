@@ -1,6 +1,6 @@
 #  Tenth Change
 
-prin ('Hello world!')
+print ('Hello world!')
 
 name = 'Monty'
 print('Hello, %s' % name)
