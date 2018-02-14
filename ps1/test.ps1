@@ -1,4 +1,5 @@
 # Execute script with . ./scriptname
+# Testing cherry-pick
 
 $url = "http://adict.bcn.rd.hpicorp.net:88/cim/fmw/ipg-atlas_bcd/vulcan/wrl60-haswell_x86_64-dbg/180973/vulcan-trunk-R180973-170921.sh"
 $output = "$PSScriptRoot\vulcan-trunk-R180973-170921.sh" # $PSScriptRoot indicates the directory from which the script module is executed
