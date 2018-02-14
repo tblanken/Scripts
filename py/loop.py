@@ -1,6 +1,3 @@
-# Testing cherry picking
-
-
 def up(num):
 	while num < 101:
 		print (num)
